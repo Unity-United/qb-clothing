@@ -14,7 +14,7 @@
     position: absolute;
     height: 99vh;
     width: 38vh;
-    background-color: linear-gradient(-45deg, #0000009c, #4747477e);;
+    background-color: linear-gradient(-45deg, #0000009c, #4747477e);
     animation: gradient 15s ease infinite;
     right: -25vw;
     border-radius: 1.3vh;
@@ -56,7 +56,7 @@
 }
 
 .selected {
-    color: #dc143c;
+    color: #14b4dc;
 }
 
 .clothing-menu-header-btn>p {
@@ -87,7 +87,7 @@
 }
 
 .selected-cam {
-    color: #dc143c;
+    color: #14b4dc;
 }
 
 .clothing-menu-header-camera-btn:hover {
@@ -131,7 +131,7 @@
     height: 40%;
     margin: 0 auto;
     top: 2.3vh;
-    background-color: #dc143c;
+    background-color: #14b4dc;
     border-radius: 0.75vh;
     transition: all 1s linear;
 }
@@ -157,7 +157,7 @@
     height: 40%;
     left: 2vh;
     top: 5.1vh;
-    background-color: #dc143c;
+    background-color: #14b4dc;
     border-radius: 0.4vh;
     transition: all 1s linear;
 }
@@ -184,7 +184,7 @@
     height: 40%;
     right: 2vh;
     top: 5.1vh;
-    background-color: #dc143c;
+    background-color: #14b4dc;
     border-radius: 0.4vh;
     transition: all 1s linear;
 }
@@ -289,7 +289,7 @@
     left: 0;
     height: 50%;
     width: 33%;
-    background-color: #dc143c;
+    background-color: #14b4dc;
     color: #e9e9e9;
     text-align: center;
     line-height: 3.6vh;
@@ -308,7 +308,7 @@
     right: 0;
     height: 50%;
     width: 33%;
-    background-color: #dc143c;
+    background-color: #14b4dc;
     color: #e9e9e9;
     text-align: center;
     line-height: 3.6vh;
@@ -366,7 +366,7 @@
     float: right;
     height: 100%;
     width: 33.33%;
-    background-color: #dc143c;
+    background-color: #14b4dc;
     transition: all 1s linear;
 }
 
@@ -408,7 +408,7 @@
 
 .clothing-menu-save-outfit-name-button {
     position: relative;
-    background: #dc143c;
+    background: #14b4dc;
     width: 50%;
     height: 100%;
     float: left;
@@ -504,7 +504,7 @@
 }
 
 .change-camera-button:hover {
-    background: #dc143c;
+    background: #14b4dc;
     cursor: pointer;
 }
 
@@ -520,7 +520,7 @@
     text-align: center;
     width: 100%;
     height: 20%;
-    background: #dc143c;
+    background: #14b4dc;
     line-height: 1.5vh;
     border-bottom-left-radius: .8vh;
     border-bottom-right-radius: .8vh;
