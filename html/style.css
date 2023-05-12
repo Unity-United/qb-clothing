@@ -15,21 +15,8 @@
     height: 99vh;
     width: 38vh;
     background: linear-gradient(-45deg, #0000009c, #4747477e);
-    animation: gradient 15s ease infinite;
     right: -25vw;
-    border-radius: 1.3vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    border-radius: 1.6vh;
 }
 
 .clothing-menu-header {
@@ -47,11 +34,11 @@
     color: #ededed;
     text-align: center;
     line-height: 3.5vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-header-btn:hover {
-    color: #444444;
+    color: #00ffaa;
     cursor: pointer;
 }
 
@@ -83,7 +70,7 @@
     color: #ededed;
     text-align: center;
     line-height: 3.7vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .selected-cam {
@@ -91,7 +78,7 @@
 }
 
 .clothing-menu-header-camera-btn:hover {
-    color: #444444;
+    color: #00ffaa;
     cursor: pointer;
 }
 
@@ -133,11 +120,11 @@
     top: 2.3vh;
     background-color: #14b4dc;
     border-radius: 0.75vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-outfit-option-button:hover {
-    background-color: #444444;
+    background-color: #00ffaa;
     cursor: pointer;
 }
 
@@ -159,11 +146,11 @@
     top: 5.1vh;
     background-color: #14b4dc;
     border-radius: 0.4vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-myOutfit-option-button:hover {
-    background-color: #444444;
+    background-color: #00ffaa;
     cursor: pointer;
 }
 
@@ -186,11 +173,11 @@
     top: 5.1vh;
     background-color: #14b4dc;
     border-radius: 0.4vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-myOutfit-option-button-remove:hover {
-    background-color: #444444;
+    background-color: #00ffaa;
 }
 
 .clothing-menu-myOutfit-option-button-remove>p {
@@ -249,7 +236,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: linear-gradient(130deg, #ff7e00, #ffffff, #5cff00);
+    background-color: linear-gradient(130deg, #00ffea, #2600ff);
 }
 
 .clothing-menu-option {
@@ -294,11 +281,11 @@
     text-align: center;
     line-height: 3.6vh;
     border-radius: .3vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-option-item-left:hover {
-    background-color: #444444;
+    background-color: #00ffaa;
     cursor: pointer;
 }
 
@@ -313,11 +300,11 @@
     text-align: center;
     line-height: 3.6vh;
     border-radius: .3vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-option-item-right:hover {
-    background-color: #444444;
+    background-color: #00ffaa;
     cursor: pointer;
 }
 
@@ -367,11 +354,11 @@
     height: 100%;
     width: 33.33%;
     background-color: #14b4dc;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-option-button:hover {
-    background-color: #444444;
+    background-color: #00ffaa;
     cursor: pointer;
 }
 
@@ -414,11 +401,11 @@
     float: left;
     text-align: center;
     line-height: 3vh;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .clothing-menu-save-outfit-name-button:hover {
-    background: #444444;
+    background: #00ffaa;
     cursor: pointer;
 }
 
