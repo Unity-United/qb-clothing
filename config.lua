@@ -1,7 +1,7 @@
 Config = Config or {}
 
 Config.WomanPlayerModels = {
-    'mp_f_freemode_01',
+    'mp_f_freemode_01'--[[, Commented out for custom models.
     'a_f_m_beach_01',
     'a_f_m_bevhills_01',
     'a_f_m_bevhills_02',
@@ -140,11 +140,11 @@ Config.WomanPlayerModels = {
     's_f_y_sweatshop_01',
     'ig_paige',
     'a_f_y_femaleagent',
-    'a_f_y_hippie_01'
+    'a_f_y_hippie_01'--]]
 }
 
 Config.ManPlayerModels = {
-    'mp_m_freemode_01',
+    'mp_m_freemode_01'--[[, Same as above
     'ig_trafficwarden',
     'ig_bankman',
     'ig_barry',
@@ -500,7 +500,7 @@ Config.ManPlayerModels = {
     'ig_car3guy1_m',
     'tony',
     'g_m_m_chigoon_02_m',
-    'a_m_o_acult_01'
+    'a_m_o_acult_01'--]]
 }
 
 Config.LoadedManModels = {}

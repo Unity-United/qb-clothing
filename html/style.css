@@ -14,9 +14,22 @@
     position: absolute;
     height: 99vh;
     width: 38vh;
-    background-color: rgb(23 23 23 / 80%);
+    background-color: linear-gradient(-45deg, #0000009c, #4747477e);;
+    animation: gradient 15s ease infinite;
     right: -25vw;
     border-radius: 1.3vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .clothing-menu-header {
@@ -236,7 +249,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #dc143c;
+    background-color: linear-gradient(130deg, #ff7e00, #ffffff, #5cff00);
 }
 
 .clothing-menu-option {
@@ -551,7 +564,7 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #dc143c;
+    background: linear-gradient(130deg, #ff7e00, #ffffff, #5cff00);
     cursor: pointer;
 }
 
